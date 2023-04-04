@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nick Cox - Cinematography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+
+
+
+
+
+
+
+
+
+    body {
+      background-color: #202020;
+      color: #e3e3e3;
+      font-family: Montserrat, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #161616;
+      font-family: Montserrat, sans-serif;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+          width: -webkit-fill-available;
+      z-index: 999;
+    }
+
+    nav h1 {
+      font-weight: bold;
+      font-size: 28px;
+      margin: 0;
+      margin-right: auto;
+      margin-left: 18%;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-right: 30%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-left: 0px;
+      margin-right: 35%;
+    }
+
+    nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    nav a {
+      color: #e3e3e3 !important;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-left: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        padding: 10px;
+      }
+
+      nav h1 {
+        font-size: 24px;
+      }
+
+      nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1c1c1c;
+        padding: 20px;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+
+
+    }
+
+
+
+
+
+
+
+  #gallery1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 160px;
+    max-width: 70%;
+    overflow: hidden;
+  }
+
+  #gallery1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+  #gallery2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 70%;
+    overflow: hidden;
+  }
+
+  #gallery2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+  #gallery3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 70%;
+    overflow: hidden;
+  }
+
+  #gallery3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+/*      */Below is an adjustment for tiny screens only
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  nav h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+
+
+
+
+
+
+
+
+  #gallery1 {
+    padding-top: 100px;
+  }
+}
+
+
+
+
+
+
+
+    #video1 {
+      padding: 10px;
+      width: 70%;
+      height: 600px;
+      margin-left: 14.7%;
+      margin-top: 60px;
+
+
+    }
+
+    #video1 iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    #video2 {
+      padding: 10px;
+      width: 70%;
+      height: 600px;
+      margin-left: 14.7%;
+      margin-top: 60px;
+
+
+    }
+
+    #video2 iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+
+
+
+    #video3 {
+      padding: 10px;
+      width: 70%;
+      height: 600px;
+      margin-left: 14.7%;
+      margin-top: 60px;
+
+
+    }
+
+    #video3 iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+
+    #call-to-action {
+
+
+
+
+    }
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<nav>
+  <h1><a href="index.html">Nick Cox - Cinematography</a></h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="#">BTS</a></li>
+  </ul>
+</nav>
+
+
+<div id="gallery1" class="gallery">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 250.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Creepy/New/Creepy 290.gif">
+</div>
+
+
+
+
+  <div id="video1">
+    <iframe height="auto" width="auto" src="https://www.youtube.com/embed/kd3xCn5XqEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<div id="gallery2" class="gallery">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 250.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/hats 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/hats 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/hats 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Free Hats/Hats 290.gif">
+</div>
+
+
+  <div id="video2">
+    <iframe src="https://youtu.be/1yKS2MzrFJc" width="auto" height="auto"></iframe>
+  </div>
+
+
+
+
+
+
+
+<div id="gallery3" class="gallery">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 250.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 255.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 260.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 265.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 270.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 275.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 280.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 285.gif">
+  <img src="/Users/nickcox/Desktop/Cinematography Site/Images/Gifs/Closure/Closure 290.gif">
+</div>
+
+
+  <div id="video3">
+    <iframe src="https://youtu.be/mfg37NRhxps" width="auto" height="auto"></iframe>
+  </div>
+
+
+
+<div id=call-to-action>
+  
+
+Let's collaborate and bring a creative vision to life.
+
+
+</div>
+
+
+
+
+
+
+<div id="gallery3" class="gallery">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+</div>
+
+
+
+<div id="gallery3" class="gallery">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+</div>
+
+
+<div id="gallery3" class="gallery">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+</div>
+
+
+<div id="gallery3" class="gallery">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+  <img src="">
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

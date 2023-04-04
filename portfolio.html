@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nick Cox - Cinematography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+
+
+
+
+
+
+
+
+
+    body {
+      background-color: #202020;
+      color: #e3e3e3;
+      font-family: Montserrat, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #161616;
+      font-family: Montserrat, sans-serif;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+          width: -webkit-fill-available;
+      z-index: 999;
+    }
+
+    nav h1 {
+      font-weight: bold;
+      font-size: 28px;
+      margin: 0;
+      margin-right: auto;
+      margin-left: 18%;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-right: 30%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-left: 0px;
+      margin-right: 35%;
+    }
+
+    nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    nav a {
+      color: #e3e3e3 !important;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-left: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        padding: 10px;
+      }
+
+      nav h1 {
+        font-size: 24px;
+      }
+
+      nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1c1c1c;
+        padding: 20px;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+
+
+    }
+
+
+
+
+
+
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  nav h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+}
+
+
+
+
+  .container {
+    width:70%;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+.Row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    grid-template-areas:
+      "A A B B B C C"
+      "D D D E E F F";
+      "G G H H I I I"
+  }
+
+.Row > div {
+  overflow: hidden;
+  height: 100%;
+}
+
+  .Row > div > img {
+    /*height: 100%;
+    max-height: 15vw;
+    max-width: 100%;
+    object-fit: cover;*/
+  }
+
+.A {
+
+grid-area: A ;
+
+}
+
+
+.B {
+
+grid-area: B ;
+
+}
+
+
+.C {
+
+grid-area: C ;
+
+}
+
+ 
+.D {
+
+grid-area: D ;
+
+}
+
+
+.E {
+
+grid-area: E ;
+
+}
+
+
+
+.F {
+
+grid-area: F ;
+
+}
+
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<nav>
+  <h1><a href="index.html">Nick Cox - Cinematography</a></h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="#">BTS</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  
+<div class="Row">
+  <div  class= "A" ><img src="./Images/Gifs/Closure/Closure 1.png"></div>
+  <div class= "B"><img src="./Images/Gifs/Closure/Closure 2.png"></div>
+  <div class= "C"><img  src="./Images/Gifs/Closure/Closure 3.png"></div>
+  <div class= "D"><img  src="./Images/Gifs/Closure/Closure 4.png"></div>
+  <div class= "E" ><img style= "transform: translateX(-74px);" src="./Images/Gifs/Closure/Closure 5.png"></div>
+  <div  class= "F" ><img src="./Images/Gifs/Closure/Closure 6.png"></div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
